@@ -24,7 +24,7 @@ export default function QRCodeGenerator() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center px-6 py-10">
-      <h2 className="text-black text-3xl font-bold mb-2">QR Code Generator</h2>
+      <h2 className="text-black text-3xl font-bold mb-2">Scan QR</h2>
       <p className="text-gray-500 text-center max-w-2xl mb-8">
         Convert any URL into a downloadable QR code instantly. Perfect for
         sharing links, websites, and digital content with a simple scan.
