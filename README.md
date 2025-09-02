@@ -1,12 +1,25 @@
-# React + Vite
+## Demo
+- Enter a valid URL, click “Generate QR Code,” and download the PNG directly in the browser.  
+- Fully client‑side flow with no backend dependencies.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Instant QR generation from URLs using a data‑URL image pipeline.  
+- One‑click PNG download of the generated QR code.  
+- Accessible form with label and keyboard‑friendly controls.  
+- Responsive Tailwind layout: Header → Intro → Input → QR preview → Footer.  
 
-Currently, two official plugins are available:
+## Tech Stack
+- React (component‑based UI)  
+- Tailwind CSS (utility‑first styling)  
+- qrcode (QR generation via `toDataURL`)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Start the app (e.g., `npm run dev`) and open the local URL shown in the terminal.  
+2. Type a valid URL in the input field.  
+3. Click “Generate QR Code” to create the QR image.  
+4. Click “Download” to save `qrcode.png`.  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Acknowledgements
+- The open‑source `qrcode` library for robust client‑side QR generation.  
+- Tailwind CSS for rapid, consistent styling.  
+- Community tutorials and examples that informed structure and UX patterns.  
